@@ -3,3 +3,78 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    color: white;
+}
+
+/*header*/
+
+/*header sx*/
+
+header {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+header > div, .recording {
+    display: flex;
+    align-items: center;
+}
+
+.secure {
+    display: inline-block;
+    color: green;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    margin: 0px 10px;
+}
+
+.recording, .secure, .view {
+    background-color: black;
+    border-radius: 5px;
+}
+
+.recording span {
+    margin-right: 8px;
+}
+
+.circle{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    border: 4px solid lightgrey;
+    margin: 6px 6px 6px 9px;
+    animation: onoff 1s infinite ;
+}
+
+@keyframes onoff {
+    50% {
+        background-color: rgb(255, 147, 147);
+    }
+}
+
+/*header dx*/
+
+.view {
+    padding: 6px;
+    margin-right: 10px;
+}
+
+.view i {
+    margin-right: 6px;
+}
+
+/*fine header*/
+
+
+
+
