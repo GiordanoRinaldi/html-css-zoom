@@ -150,6 +150,54 @@ main {
 
 /*fine schermata principale/*/
 
+footer {
+    height: 60px;
+    background-color: black;
+    display: flex;
+}
+
+footer > div > div > i:first-child {
+    font-size: 20px;
+}
+
+.footersx {
+    width: 10vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.loghini {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.footercx, .footerdx {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.verde {
+    color: green;
+}
+
+.fa-pause {
+    font-size: 20px;
+}
+
+.end {
+    display: inline-block;
+    background-color: red;
+    padding: 5px 20px;
+    border-radius: 4px;
+    margin-right: 10px;
+
+}
+
+
+
 
 
 
