@@ -93,9 +93,15 @@ main {
     position: relative;
     width: calc(100% / 5 - 6px);
     height: calc((100vh - 100px) / 5 - 6px);
-    background-color: lightgrey;
+    background-color: rgb(85, 85, 85);
     margin: 3px;
     border-radius: 3px;
+    overflow: hidden;
+}
+
+.schermata img {
+    width: 100%;
+    height: 100%;
 }
 
 .name {
