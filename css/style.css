@@ -75,6 +75,44 @@ header > div, .recording {
 
 /*fine header*/
 
+/*main*/
+
+main {
+    width: 80vw;
+    margin: auto;
+    height: calc(100vh - 100px);
+}
+
+.persone {
+    display: flex;
+    flex-flow: wrap;
+
+}
+
+.schermata {
+    position: relative;
+    width: calc(100% / 5 - 6px);
+    height: calc((100vh - 100px) / 5 - 6px);
+    background-color: lightgrey;
+    margin: 3px;
+    border-radius: 3px;
+}
+
+.name {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 0px 3px;
+}
+
+.name i {
+    color: red;
+}
+
+
+
 
 
 
